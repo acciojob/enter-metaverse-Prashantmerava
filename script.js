@@ -1,7 +1,7 @@
-//your JS code here. If required.
-let text=document.getElementById("status");
-let btn=document.getElementById("enterBtn");
+let btn = document.getElementById("enterBtn");
 
-btn.addEventListener("click", function(){
-	text.innerHTML="<h1>Entered Metaverse</h1>";
+btn.addEventListener("click", function() {
+    let status = document.getElementById("status");
+
+    status.innerHTML = "<h1>Entered Metaverse</h1>";
 });
